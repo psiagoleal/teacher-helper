@@ -63,7 +63,7 @@ Stack deste projeto (ADR-0004):
 ## 3. Comandos exatos (ajuste por projeto)
 
 <!-- USER:BEGIN id=comandos-exatos -->
-Ferramentas verificadas em 2026-11-01: node v24.18.0, pnpm 11.12.0, cargo/rustc 1.97.1,
+Ferramentas verificadas em 2026-11-01: node v24.18.0, pnpm 11.28.10 (11.12.0 foi retirada por defeito), cargo/rustc 1.97.1,
 wasm-pack 0.15.0, alvo `wasm32-unknown-unknown` instalado.
 
 ```bash

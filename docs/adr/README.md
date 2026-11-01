@@ -12,4 +12,4 @@ Registros de decisões estruturais (ver skill `adr-writer`). Use
 | [0003](0003-web-primeiro-desktop-tauri.md) | Web primeiro; desktop (Tauri) para recursos avançados, sobre núcleo compartilhado | Proposed |
 | [0004](0004-stack-e-layout.md) | Stack, ferramentas e layout do repositório | Proposed |
 | [0005](0005-formulas-diagramas-e-motor-de-pdf.md) | Fórmulas em LaTeX, motor de PDF Typst e diagramas Mermaid em SVG puro | Proposed |
-| [0006](0006-fronteira-nucleo-interface.md) | Fronteira entre núcleo Rust e interface, com sessão de documento por comandos | Proposed |
+| [0006](0006-fronteira-nucleo-interface.md) | Fronteira entre núcleo Rust e interface, com sessão de documento por comandos | Accepted |
