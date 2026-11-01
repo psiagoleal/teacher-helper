@@ -1,0 +1,31 @@
+[
+  {
+    "type": "paragraph",
+    "inlines": [
+      { "type": "text", "text": "Calcule a área do círculo de raio " },
+      { "type": "math", "latex": "r = 2" },
+      { "type": "text", "text": "NÃO", "bold": true },
+      { "type": "text", "text": " use calculadora.", "italic": true },
+      { "type": "code", "source": "math.pi" }
+    ]
+  },
+  { "type": "math", "latex": "A = \\pi r^2 = \\frac{4\\pi}{1}" },
+  {
+    "type": "code",
+    "language": "python",
+    "source": "def area(r):\n    return 3.14 * r ** 2\n"
+  },
+  { "type": "image", "asset_id": "img-7f3a", "alt": "Círculo com o raio marcado" },
+  {
+    "type": "table",
+    "header": [
+      [{ "type": "text", "text": "Raio" }],
+      [{ "type": "text", "text": "Área" }]
+    ],
+    "rows": [
+      [[{ "type": "math", "latex": "1" }], [{ "type": "math", "latex": "\\pi" }]],
+      [[{ "type": "math", "latex": "2" }], [{ "type": "math", "latex": "4\\pi" }]]
+    ]
+  },
+  { "type": "diagram", "mermaid": "flowchart TD\n  A[\"Início\"] --> B[\"Fim\"]" }
+]

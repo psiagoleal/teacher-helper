@@ -20,7 +20,7 @@
 - [ ] [MT-2](plano-mvp.md#mt-2) — Escolher extração de PDF, DOCX e OCR.
 - [ ] [MT-3](plano-mvp.md#mt-3) — Escolher a renderização da pré-visualização.
 - [ ] [MT-4](plano-mvp.md#mt-4) — Escolher o motor de modelo local.
-- [ ] [MT-6](plano-mvp.md#mt-6) — Definir os tipos do documento e da questão.
+- [>] [MT-6](plano-mvp.md#mt-6) — Definir os tipos do documento e da questão · falta: tipos de questão, documento e seção (conteúdo rico e cabeçalho prontos).
 - [ ] [MT-7](plano-mvp.md#mt-7) — Validar documento com erros por caminho.
 - [ ] [MT-8](plano-mvp.md#mt-8) — Migrar esquema de versões anteriores.
 - [ ] [MT-9](plano-mvp.md#mt-9) — Implementar as verificações CK-01 a CK-07 e CK-09.
