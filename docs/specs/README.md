@@ -12,7 +12,7 @@ alternativas fica em ADR.
 | [01](01-conexao-ia.md) | Conexão com a IA do professor | MVP | Aprovada |
 | [02](02-materiais-de-entrada.md) | Materiais de entrada (PDF, DOCX, fotos, texto, links) | MVP | Aprovada |
 | [03](03-provas-e-listas.md) | Geração de provas e listas de exercícios | MVP | Aprovada |
-| [04](04-exportacao.md) | Exportação para PDF, DOCX e Markdown | MVP | Aprovada — DOCX depende do spike PRE-5 |
+| [04](04-exportacao.md) | Exportação para PDF, DOCX e Markdown | MVP | Aprovada (ajustada pelo ADR-0005) |
 | [05](05-skills-pedagogicas.md) | Skills pedagógicas | MVP | Aprovada |
 | [06](06-economia-de-cota.md) | Economia de cota da IA | MVP | Aprovada |
 

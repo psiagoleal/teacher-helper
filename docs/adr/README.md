@@ -11,3 +11,4 @@ Registros de decisões estruturais (ver skill `adr-writer`). Use
 | [0002](0002-conexao-com-ia-do-usuario.md) | Conexão com a IA do usuário — sem login de assinatura de consumidor | Proposed |
 | [0003](0003-web-primeiro-desktop-tauri.md) | Web primeiro; desktop (Tauri) para recursos avançados, sobre núcleo compartilhado | Proposed |
 | [0004](0004-stack-e-layout.md) | Stack, ferramentas e layout do repositório | Proposed |
+| [0005](0005-formulas-diagramas-e-motor-de-pdf.md) | Fórmulas em LaTeX, motor de PDF Typst e diagramas Mermaid em SVG puro | Proposed |

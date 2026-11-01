@@ -11,7 +11,6 @@
 
 - [ ] PRE-2 — Verificar nas fontes oficiais: termos e CORS de cada provedor (header da Anthropic), `localhost` via HTTPS no Safari, permissão de rede local no Chrome, eviction do IndexedDB no Safari; aceitar ou ajustar ADR-0001 a 0004.
 - [ ] PRE-3 — Investigar *Sign in with ChatGPT*: requisitos de cadastro para app gratuito estático.
-- [ ] PRE-5 — Spike: LaTeX→Typst (PDF, incl. PDF/UA), LaTeX→equação do Word (DOCX) no navegador, Mermaid→SVG sem `foreignObject`; resultado vira ADR e destrava a spec 04.
 - [ ] PRE-6 — Quebrar o MVP em micro-tickets (`micro-ticket-planner`).
 - [ ] PRE-7 — Levantar concorrentes (ex.: MagicSchool e equivalentes brasileiros) e validar a proposta de valor da spec 00.
 - [ ] PRE-11 — Primeiro push: criar o repositório no GitHub, ativar Pages com origem "GitHub Actions" e confirmar o CI verde.
@@ -25,6 +24,7 @@
 - [x] PRE-0c — Crítica das specs em contexto limpo e rodada 2 das specs 00–06.
 - [x] PRE-4 — Questionário de stack: ADR-0004 e ilhas do `AGENTS.md`.
 - [x] PRE-1 — Specs 00–06 aprovadas pelo mantenedor (2026-11-01).
+- [x] PRE-5 — Spike de fórmulas, PDF/UA, DOCX e Mermaid: viável; ADR-0005 e código em `docs/spikes/pre-5/`.
 - [x] PRE-8 — Scaffold (workspace Cargo, SvelteKit, WASM, CSP, CI/deploy); todos os comandos da ilha `comandos-exatos` executados.
 
 ## Abandonados

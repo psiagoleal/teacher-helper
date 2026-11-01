@@ -24,3 +24,5 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Esqueleto do projeto: workspace Cargo (`app/core`, `app/wasm`), SvelteKit estático
   (`app/web`) carregando o núcleo WASM, CSP via `<meta>`, testes unitários e e2e, e
   workflow de CI com deploy no GitHub Pages.
+- Spike PRE-5 e ADR-0005: Typst em WASM gera PDF/UA-1 (validado com veraPDF) a partir de
+  LaTeX; LaTeX → equação editável do Word viável; Mermaid em SVG puro.

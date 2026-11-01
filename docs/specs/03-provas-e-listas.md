@@ -24,9 +24,9 @@ por código.
 - **Questão:** tipo, enunciado, alternativas ou itens, resposta, critério de correção
   (discursivas), pontos, **tema**, **nível** (etapa e ano/período), **dificuldade** (1 a 3),
   `embaralhavel` (sim/não), estado do gabarito (`nao_conferido` | `conferido`).
-- **Conteúdo rico** em qualquer campo de texto: fórmula em LaTeX (subconjunto definido em ADR),
+- **Conteúdo rico** em qualquer campo de texto: fórmula em LaTeX (subconjunto definido pelas fixtures de teste — ADR-0005),
   código com linguagem declarada, imagem com texto alternativo, tabela e **diagrama Mermaid**
-  (tipos suportados definidos em ADR).
+  (tipos suportados no MVP: fluxograma, sequência, mapa mental, pizza, classes e estados; rótulos sempre entre aspas — ADR-0005).
 - **Tipos de questão:** múltipla escolha (uma correta), verdadeiro/falso, associação de
   colunas, lacunas, discursiva curta e longa (espaço de resposta em linhas).
 - **Linguagens de código com realce:** Python, C, C++, Java, JavaScript, TypeScript, Rust, SQL,
@@ -64,6 +64,4 @@ por código.
 
 ## Questões em aberto
 
-- Subconjunto de LaTeX e tipos de Mermaid suportados — ADR após o spike de fórmulas e
-  diagramas (ticket PRE-5).
 - Cabeçalho (escola, professor, aluno, data, nota): fixo no app ou template configurável?
