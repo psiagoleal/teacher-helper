@@ -2,7 +2,7 @@
 
 # ADR 0006: Fronteira entre núcleo Rust e interface, com sessão de documento por comandos
 
-- **Status:** Proposed
+- **Status:** Accepted (2026-11-01)
 - **Data:** 2026-11-01
 - **Decisores:** Iago Leal
 - **Tags:** arquitetura, wasm, fronteira, rede

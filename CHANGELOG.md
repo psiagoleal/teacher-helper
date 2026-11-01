@@ -31,7 +31,13 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Specs 02 e 03 sem questões em aberto: o professor escolhe o uso das imagens dos materiais
   (M-14) e o cabeçalho vem de modelo configurável (P-17).
 - ADR-0006 (fronteira entre núcleo Rust e interface; sessão de documento por comandos),
-  proposto.
+  aceito.
 - GitHub: repositório público, `main` protegida por ruleset versionado, PR com *squash*,
   varredura de segredos (gitleaks no CI e proteção de push), CodeQL, Dependabot, relato
   privado de vulnerabilidade (`SECURITY.md`) e actions do CI fixadas por SHA.
+- Site publicado em <https://psiagoleal.github.io/teacher-helper/>.
+
+### Corrigido
+- CI: pnpm fixado em 11.28.10 (a 11.12.0 foi retirada por defeito e quebrava a instalação).
+- Dependabot agrupa só atualizações *minor* e *patch*; *major* chega em PR própria, e
+  TypeScript e `@types/node` não sobem de *major* sozinhos.

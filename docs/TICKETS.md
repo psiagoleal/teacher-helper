@@ -12,13 +12,11 @@
 - [ ] [PRE-2](plano-mvp.md#pre-2) — Verificar nas fontes oficiais: termos e CORS de cada provedor (header da Anthropic), `localhost` via HTTPS no Safari, permissão de rede local no Chrome, eviction do IndexedDB no Safari; aceitar ou ajustar ADR-0001 a 0004.
 - [ ] [PRE-3](plano-mvp.md#pre-3) — Investigar *Sign in with ChatGPT*: requisitos de cadastro para app gratuito estático.
 - [ ] [PRE-7](plano-mvp.md#pre-7) — Levantar concorrentes (ex.: MagicSchool e equivalentes brasileiros) e validar a proposta de valor da spec 00.
-- [ ] [PRE-11](plano-mvp.md#pre-11) — Primeiro push: criar o repositório no GitHub, ativar Pages com origem "GitHub Actions" e confirmar o CI verde.
 - [ ] [PRE-9](plano-mvp.md#pre-9) — `docs/DESIGN.md` (contrato visual) antes do primeiro componente de interface.
 - [ ] [PRE-10](plano-mvp.md#pre-10) — Planejar a próxima etapa: anonimização de dados pessoais, BNCC (fonte e licença da base), skills de gabarito comentado e importação de prova antiga.
 
 ### MVP — micro-tickets ([plano](plano-mvp.md))
 
-- [>] [MT-1](plano-mvp.md#mt-1) — Registrar a fronteira entre núcleo e interface · falta aprovação do mantenedor ao ADR-0006.
 - [ ] [MT-2](plano-mvp.md#mt-2) — Escolher extração de PDF, DOCX e OCR.
 - [ ] [MT-3](plano-mvp.md#mt-3) — Escolher a renderização da pré-visualização.
 - [ ] [MT-4](plano-mvp.md#mt-4) — Escolher o motor de modelo local.
@@ -110,6 +108,8 @@
 - [x] [PRE-6](plano-mvp.md) — MVP quebrado em 79 micro-tickets em 9 ondas (`docs/plano-mvp.md`).
 - [x] [MT-5](plano-mvp.md#mt-5) — Specs 02 e 03 sem questões em aberto: imagens de entrada à escolha do professor (M-14), cabeçalho por modelo configurável (P-17).
 - [x] [PRE-8](adr/0004-stack-e-layout.md) — Scaffold (workspace Cargo, SvelteKit, WASM, CSP, CI/deploy); todos os comandos da ilha `comandos-exatos` executados.
+- [x] [MT-1](adr/0006-fronteira-nucleo-interface.md) — ADR-0006 aceito: sessão de documento por comandos no núcleo, interface de plataforma `Http`/`ExternalModel`, JSON e esquema gerado na fronteira.
+- [x] [PRE-11](plano-mvp.md#pre-11) — Repositório público no GitHub com `main` protegida, CI verde e Pages publicado mostrando "Núcleo carregado".
 
 ## Abandonados
 

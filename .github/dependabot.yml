@@ -1,6 +1,7 @@
 # Caminho relativo: .github/dependabot.yml
 #
-# Atualizações semanais agrupadas: Rust, pacotes JS (pnpm) e actions do CI (fixadas por SHA).
+# Atualizações semanais: Rust, pacotes JS (pnpm) e actions do CI (fixadas por SHA).
+# Só minor e patch vêm agrupadas; cada major chega em PR própria, para quebrar uma de cada vez.
 version: 2
 updates:
   - package-ecosystem: cargo
@@ -11,7 +12,7 @@ updates:
       prefix: "chore(deps)"
     groups:
       rust:
-        patterns: ["*"]
+        update-types: [minor, patch]
 
   - package-ecosystem: npm
     directory: /
@@ -21,7 +22,14 @@ updates:
       prefix: "chore(deps)"
     groups:
       js:
-        patterns: ["*"]
+        update-types: [minor, patch]
+    ignore:
+      # TypeScript 7 (compilador nativo) não tem a API JS que svelte-check e SvelteKit usam.
+      - dependency-name: typescript
+        update-types: [version-update:semver-major]
+      # Os tipos acompanham a versão do Node usada no projeto (24).
+      - dependency-name: "@types/node"
+        update-types: [version-update:semver-major]
 
   - package-ecosystem: github-actions
     directory: /
