@@ -26,3 +26,5 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
   workflow de CI com deploy no GitHub Pages.
 - Spike PRE-5 e ADR-0005: Typst em WASM gera PDF/UA-1 (validado com veraPDF) a partir de
   LaTeX; LaTeX → equação editável do Word viável; Mermaid em SVG puro.
+- Plano do MVP em `docs/plano-mvp.md`: 79 micro-tickets em 9 ondas, refletidos no painel
+  `docs/TICKETS.md`.
