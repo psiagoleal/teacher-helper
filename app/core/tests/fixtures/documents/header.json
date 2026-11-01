@@ -1,0 +1,16 @@
+{
+  "template_id": "tpl-padrao",
+  "fields": [
+    { "kind": "school", "label": "Escola", "value": "E. E. Exemplo" },
+    { "kind": "logo", "label": "Logotipo", "value": "img-logo" },
+    { "kind": "subject", "label": "Disciplina", "value": "Matemática" },
+    { "kind": "teacher", "label": "Professor(a)", "value": "Ana" },
+    { "kind": "class", "label": "Turma", "value": "9º A" },
+    { "kind": "student", "label": "Aluno(a)" },
+    { "kind": "date", "label": "Data" },
+    { "kind": "points", "label": "Valor", "value": "10,0" },
+    { "kind": "grade", "label": "Nota" },
+    { "kind": "instructions", "label": "Instruções", "value": "Responda a caneta." },
+    { "kind": "free_text", "label": "Observação", "value": "Prova sem consulta." }
+  ]
+}

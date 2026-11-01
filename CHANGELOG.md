@@ -36,6 +36,8 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
   varredura de segredos (gitleaks no CI e proteção de push), CodeQL, Dependabot, relato
   privado de vulnerabilidade (`SECURITY.md`) e actions do CI fixadas por SHA.
 - Site publicado em <https://psiagoleal.github.io/teacher-helper/>.
+- Núcleo: tipos de conteúdo rico (parágrafo, fórmula, código, imagem, tabela, Mermaid) e
+  do cabeçalho do documento, com JSON de ida e volta e JSON Schema gerado (parte do MT-6).
 
 ### Corrigido
 - CI: pnpm fixado em 11.28.10 (a 11.12.0 foi retirada por defeito e quebrava a instalação).
