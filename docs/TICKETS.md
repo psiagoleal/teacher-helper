@@ -13,7 +13,7 @@
 - [ ] [PRE-3](plano-mvp.md#pre-3) — Investigar *Sign in with ChatGPT*: requisitos de cadastro para app gratuito estático.
 - [ ] [PRE-7](plano-mvp.md#pre-7) — Levantar concorrentes (ex.: MagicSchool e equivalentes brasileiros) e validar a proposta de valor da spec 00.
 - [ ] [PRE-9](plano-mvp.md#pre-9) — `docs/DESIGN.md` (contrato visual) antes do primeiro componente de interface.
-- [ ] [PRE-10](plano-mvp.md#pre-10) — Planejar a próxima etapa: anonimização de dados pessoais, BNCC (fonte e licença da base), skills de gabarito comentado e importação de prova antiga.
+- [ ] [PRE-10](plano-mvp.md#pre-10) — Planejar a próxima etapa: anonimização de dados pessoais, BNCC (fonte e licença da base), skills de gabarito comentado, importação de prova antiga e correção de provas respondidas.
 
 ### MVP — micro-tickets ([plano](plano-mvp.md))
 
