@@ -38,6 +38,9 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Site publicado em <https://psiagoleal.github.io/teacher-helper/>.
 - Núcleo: tipos de conteúdo rico (parágrafo, fórmula, código, imagem, tabela, Mermaid) e
   do cabeçalho do documento, com JSON de ida e volta e JSON Schema gerado (parte do MT-6).
+- Núcleo: tipos do documento, das seções e dos 6 tipos de questão (múltipla escolha,
+  verdadeiro/falso, associação, lacunas, discursiva curta e longa), com gabarito por `id`
+  estável e registro das skills que produziram o documento (MT-6).
 
 ### Corrigido
 - CI: pnpm fixado em 11.28.10 (a 11.12.0 foi retirada por defeito e quebrava a instalação).

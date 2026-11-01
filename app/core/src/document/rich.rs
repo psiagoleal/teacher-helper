@@ -53,6 +53,8 @@ pub enum Inline {
     Math { latex: String },
     /// Código em linha, sem realce.
     Code { source: String },
+    /// Lacuna a preencher; a resposta fica na questão de lacunas, pelo `id`.
+    Blank { id: String },
 }
 
 fn is_false(value: &bool) -> bool {

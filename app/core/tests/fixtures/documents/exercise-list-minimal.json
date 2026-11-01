@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "kind": "exercise_list",
+  "title": "Lista 1",
+  "header": { "fields": [] },
+  "sections": [{ "id": "s1", "questions": [] }]
+}
