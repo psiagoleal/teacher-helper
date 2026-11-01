@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "kind": "exam",
+  "title": "Prova",
+  "header": { "fields": [] },
+  "sections": [
+    {
+      "id": "s1",
+      "questions": [
+        {
+          "id": "q1",
+          "statement": [],
+          "body": { "type": "essay_with_drawing", "lines": 5 },
+          "points": 1,
+          "topic": "Geometria",
+          "level": { "stage": "high_school" },
+          "difficulty": 2,
+          "shuffleable": false
+        }
+      ]
+    }
+  ]
+}
