@@ -100,3 +100,14 @@ Valores iniciais, revistos com medição; mudar um deles é mudar esta spec.
 
 - **Anonimização** de dados pessoais: substituir por marcadores antes do envio e restaurar na
   resposta, incluindo detecção de nomes.
+- **Correção de provas respondidas**, com o professor no controle:
+  - objetivas e lacunas corrigidas por código contra o gabarito, sem IA; o professor revisa e
+    decide os casos que não batem exatamente (grafia, sinônimo);
+  - discursivas: a IA, se o professor quiser, só **sugere** nota e justificativa a partir do
+    critério de correção; cada nota vale apenas depois da confirmação do professor;
+  - nenhuma nota é lançada nem exportada sem revisão do professor, e a correção funciona
+    inteira sem IA;
+  - respostas de aluno são dados pessoais (frequentemente de menores): enviá-las a uma IA
+    remota depende da anonimização acima ou do modelo local;
+  - primeira entrega sugerida: respostas digitadas e objetivas corrigidas sem IA; leitura de
+    folhas manuscritas escaneadas fica para depois.

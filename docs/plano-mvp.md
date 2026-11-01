@@ -76,7 +76,8 @@ Tickets de preparação, anteriores a este plano.
 <a id="pre-10"></a>
 ### PRE-10 — Planejar a próxima etapa
 - **Objetivo:** anonimização de dados pessoais, BNCC (fonte e licença da base), skills de
-  gabarito comentado e importação de prova antiga.
+  gabarito comentado, importação de prova antiga e correção de provas respondidas (princípios
+  na spec 00, "Fora do MVP, planejado").
 - **Arquivos no escopo:** `docs/specs/` (rascunhos novos)
 - **Critério de aceite:** specs em rascunho criticadas e aprovadas pelo mantenedor.
 - **Fora de escopo:** MVP.
