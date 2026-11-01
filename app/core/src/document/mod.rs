@@ -6,6 +6,7 @@
 
 pub mod question;
 pub mod rich;
+pub mod validate;
 
 use schemars::JsonSchema;
 use serde::{Deserialize, Serialize};

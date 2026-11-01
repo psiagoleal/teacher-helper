@@ -41,6 +41,8 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Núcleo: tipos do documento, das seções e dos 6 tipos de questão (múltipla escolha,
   verdadeiro/falso, associação, lacunas, discursiva curta e longa), com gabarito por `id`
   estável e registro das skills que produziram o documento (MT-6).
+- Núcleo: validação do documento (P-01) com o caminho exato do campo errado e erro como
+  código + parâmetros, pronto para voltar à IA (MT-7).
 - Spec 00: correção de provas respondidas registrada como planejada fora do MVP, com o
   professor decidindo toda nota e IA só como sugestão nas discursivas.
 

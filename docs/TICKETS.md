@@ -20,7 +20,6 @@
 - [ ] [MT-2](plano-mvp.md#mt-2) — Escolher extração de PDF, DOCX e OCR.
 - [ ] [MT-3](plano-mvp.md#mt-3) — Escolher a renderização da pré-visualização.
 - [ ] [MT-4](plano-mvp.md#mt-4) — Escolher o motor de modelo local.
-- [ ] [MT-7](plano-mvp.md#mt-7) — Validar documento com erros por caminho.
 - [ ] [MT-8](plano-mvp.md#mt-8) — Migrar esquema de versões anteriores.
 - [ ] [MT-9](plano-mvp.md#mt-9) — Implementar as verificações CK-01 a CK-07 e CK-09.
 - [ ] [MT-10](plano-mvp.md#mt-10) — Verificar LaTeX no núcleo.
@@ -110,6 +109,7 @@
 - [x] [MT-1](adr/0006-fronteira-nucleo-interface.md) — ADR-0006 aceito: sessão de documento por comandos no núcleo, interface de plataforma `Http`/`ExternalModel`, JSON e esquema gerado na fronteira.
 - [x] [PRE-11](plano-mvp.md#pre-11) — Repositório público no GitHub com `main` protegida, CI verde e Pages publicado mostrando "Núcleo carregado".
 - [x] [MT-6](plano-mvp.md#mt-6) — Tipos Rust do documento, das seções, dos 6 tipos de questão, do cabeçalho e do conteúdo rico, com ida e volta em JSON e esquema gerado.
+- [x] [MT-7](plano-mvp.md#mt-7) — Validação do documento com erro por caminho (JSON Pointer) e código + parâmetros, inclusive dentro do corpo da questão.
 
 ## Abandonados
 
