@@ -1,0 +1,33 @@
+# Caminho relativo: .gitignore
+
+# --- Segredos (nunca versionar) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# --- Claude Code: configurações locais da máquina ---
+.claude/settings.local.json
+
+# --- Rust ---
+target/
+
+# --- Node / SvelteKit ---
+node_modules/
+.svelte-kit/
+build/
+dist/
+app/wasm/pkg/
+
+# --- Testes e relatórios ---
+coverage/
+test-results/
+playwright-report/
+*.log
+
+# --- Sistema / editor ---
+.DS_Store
+Thumbs.db
+.zed/
