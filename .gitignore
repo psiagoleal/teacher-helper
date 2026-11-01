@@ -31,3 +31,9 @@ playwright-report/
 .DS_Store
 Thumbs.db
 .zed/
+
+# --- Material de terceiros (uso pessoal; não publicar) ---
+skills/privado/
+.claude/skills/debug-sistematico-causa-raiz
+.claude/skills/execucao-cuidadosa
+.claude/skills/pedir-e-receber-review

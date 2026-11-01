@@ -28,3 +28,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
   LaTeX; LaTeX → equação editável do Word viável; Mermaid em SVG puro.
 - Plano do MVP em `docs/plano-mvp.md`: 79 micro-tickets em 9 ondas, refletidos no painel
   `docs/TICKETS.md`.
+- Specs 02 e 03 sem questões em aberto: o professor escolhe o uso das imagens dos materiais
+  (M-14) e o cabeçalho vem de modelo configurável (P-17).
+- ADR-0006 (fronteira entre núcleo Rust e interface; sessão de documento por comandos),
+  proposto.
+- GitHub: repositório público, `main` protegida por ruleset versionado, PR com *squash*,
+  varredura de segredos (gitleaks no CI e proteção de push), CodeQL, Dependabot, relato
+  privado de vulnerabilidade (`SECURITY.md`) e actions do CI fixadas por SHA.

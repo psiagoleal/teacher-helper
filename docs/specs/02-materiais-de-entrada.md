@@ -2,7 +2,7 @@
 
 # Spec 02 — Materiais de entrada
 
-- **Status:** Aprovada (2026-11-01)
+- **Status:** Aprovada (2026-11-01); M-14 acrescentado pelo MT-5 (2026-11-01)
 - **Fase:** MVP
 - **Cita:** `00-transversal.md`, `01-conexao-ia.md`
 
@@ -44,6 +44,7 @@ imitar) ou **Ambos**.
 | M-11 | SE um arquivo estiver corrompido, protegido por senha ou em formato não suportado, ENTÃO o app DEVE recusá-lo com o motivo e manter os demais materiais. | testes unitários com fixtures inválidas |
 | M-12 | O app DEVE recusar arquivo ou conjunto acima dos limites de referência, informando o limite. | teste unitário |
 | M-13 | Todo texto extraído DEVE passar pelo detector de dados pessoais (spec 00, T-15) antes de qualquer envio. | teste unitário |
+| M-14 | QUANDO um PDF ou DOCX de entrada contiver imagens, o app DEVE listá-las e deixar o professor escolher, para cada uma, entre **usar no documento** (vira imagem do documento, com texto alternativo obrigatório) e **só referência** (padrão: pode ir à IA conforme M-04/M-05, mas não entra no documento). | teste unitário com PDF e DOCX de fixture contendo imagens + e2e da escolha |
 
 ## Fora de escopo do MVP
 
@@ -51,8 +52,3 @@ imitar) ou **Ambos**.
 - Rastreamento de páginas (seguir links a partir de um link).
 - Leitura de Google Docs/Drive por integração (o professor exporta e anexa).
 - Formatos além de PDF, DOCX, imagem (PNG/JPG/WebP) e texto — ex.: PPTX, ODT.
-
-## Questões em aberto
-
-- Imagens e figuras dentro do PDF/DOCX de entrada: extrair para reaproveitar no documento
-  gerado, ou só como referência para a IA?

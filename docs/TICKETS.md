@@ -18,11 +18,10 @@
 
 ### MVP — micro-tickets ([plano](plano-mvp.md))
 
-- [ ] [MT-1](plano-mvp.md#mt-1) — Registrar a fronteira entre núcleo e interface.
+- [>] [MT-1](plano-mvp.md#mt-1) — Registrar a fronteira entre núcleo e interface · falta aprovação do mantenedor ao ADR-0006.
 - [ ] [MT-2](plano-mvp.md#mt-2) — Escolher extração de PDF, DOCX e OCR.
 - [ ] [MT-3](plano-mvp.md#mt-3) — Escolher a renderização da pré-visualização.
 - [ ] [MT-4](plano-mvp.md#mt-4) — Escolher o motor de modelo local.
-- [ ] [MT-5](plano-mvp.md#mt-5) — Fechar as questões em aberto das specs 02 e 03.
 - [ ] [MT-6](plano-mvp.md#mt-6) — Definir os tipos do documento e da questão.
 - [ ] [MT-7](plano-mvp.md#mt-7) — Validar documento com erros por caminho.
 - [ ] [MT-8](plano-mvp.md#mt-8) — Migrar esquema de versões anteriores.
@@ -97,6 +96,8 @@
 - [ ] [MT-77](plano-mvp.md#mt-77) — Provar a resistência a XSS.
 - [ ] [MT-78](plano-mvp.md#mt-78) — Testar o fluxo completo sem IA onde ela não é necessária.
 - [ ] [MT-79](plano-mvp.md#mt-79) — Escrever os roteiros manuais de release.
+- [ ] [MT-80](plano-mvp.md#mt-80) — Gerenciar modelos de cabeçalho.
+- [ ] [MT-81](plano-mvp.md#mt-81) — Escolher o uso das imagens dos materiais.
 
 ## Concluídos
 
@@ -107,6 +108,7 @@
 - [x] [PRE-1](specs/README.md) — Specs 00–06 aprovadas pelo mantenedor (2026-11-01).
 - [x] [PRE-5](spikes/pre-5/README.md) — Spike de fórmulas, PDF/UA, DOCX e Mermaid: viável; ADR-0005 e código em `docs/spikes/pre-5/`.
 - [x] [PRE-6](plano-mvp.md) — MVP quebrado em 79 micro-tickets em 9 ondas (`docs/plano-mvp.md`).
+- [x] [MT-5](plano-mvp.md#mt-5) — Specs 02 e 03 sem questões em aberto: imagens de entrada à escolha do professor (M-14), cabeçalho por modelo configurável (P-17).
 - [x] [PRE-8](adr/0004-stack-e-layout.md) — Scaffold (workspace Cargo, SvelteKit, WASM, CSP, CI/deploy); todos os comandos da ilha `comandos-exatos` executados.
 
 ## Abandonados

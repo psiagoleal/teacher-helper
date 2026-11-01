@@ -228,6 +228,9 @@ _(nenhum — acrescente aqui o cofre, caminhos de credencial e regras de segredo
 - **Commits:** Conventional Commits (`feat:`, `fix:`, `docs:`, `test:`, `refactor:`,
   `chore:`) com descrição em português, mais o marcador de proveniência da seção 7.
 - **Spec antes do ticket:** spec em "Rascunho" não gera ticket de implementação.
+- **`main` protegida** (`.github/rulesets/main.json`): todo trabalho vai em branch própria e
+  entra por PR com *squash*, depois de passar nas verificações `verify`, `segredos` e CodeQL.
+  O título do PR vira a mensagem do commit; o corpo leva o marcador de proveniência.
 <!-- USER:END -->
 
 ### git: o agente propõe, a pessoa executa

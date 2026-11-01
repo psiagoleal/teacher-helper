@@ -2,7 +2,7 @@
 
 # Spec 03 — Geração de provas e listas de exercícios
 
-- **Status:** Aprovada (2026-11-01)
+- **Status:** Aprovada (2026-11-01); cabeçalho e P-17 acrescentados pelo MT-5 (2026-11-01)
 - **Fase:** MVP
 - **Cita:** `00-transversal.md`, `01-conexao-ia.md`, `02-materiais-de-entrada.md`,
   `05-skills-pedagogicas.md`
@@ -21,6 +21,9 @@ por código.
 
 - **Documento:** versão do esquema, tipo (prova | lista), cabeçalho, seções, pontuação total
   desejada, skills e versões que o produziram (spec 05, S-08).
+- **Cabeçalho:** gerado de um **modelo de cabeçalho** escolhido pelo professor. O modelo define
+  quais campos aparecem e em que ordem — escola, logotipo, disciplina, professor, turma, aluno,
+  data, valor, nota, instruções e campos de texto livre — e os valores fixos de cada um.
 - **Questão:** tipo, enunciado, alternativas ou itens, resposta, critério de correção
   (discursivas), pontos, **tema**, **nível** (etapa e ano/período), **dificuldade** (1 a 3),
   `embaralhavel` (sim/não), estado do gabarito (`nao_conferido` | `conferido`).
@@ -52,6 +55,7 @@ por código.
 | P-14 | O app DEVE permitir desfazer e refazer qualquer alteração, feita pelo professor ou pela IA. | teste unitário do histórico |
 | P-15 | ENQUANTO a IA estiver gerando, o app DEVE mostrar o progresso e permitir cancelar; QUANDO a geração for cancelada ou a aba fechada, a resposta parcial DEVE ser descartada e o documento anterior mantido. | e2e com provedor simulado lento + recarga no meio |
 | P-16 | O app DEVE exibir, na tela de edição, aviso permanente de que o conteúdo foi gerado por IA e precisa de revisão; o aviso NÃO DEVE aparecer nos arquivos exportados. | e2e + teste da exportação |
+| P-17 | O professor DEVE poder criar, editar, duplicar e excluir modelos de cabeçalho, escolher um por documento e definir um padrão para documentos novos; QUANDO um modelo for alterado, documentos já existentes NÃO DEVEM mudar sem que o professor peça. | teste unitário do modelo + e2e de criar, aplicar e alterar |
 
 ## Fora de escopo do MVP
 
@@ -61,7 +65,3 @@ por código.
 - Geração de imagens pela IA (o professor anexa imagens; diagramas via Mermaid).
 - Questões adaptadas (acessibilidade) — candidata a fase seguinte.
 - Planos de aula e slides/apostilas — fases seguintes, com spec própria.
-
-## Questões em aberto
-
-- Cabeçalho (escola, professor, aluno, data, nota): fixo no app ou template configurável?

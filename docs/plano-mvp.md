@@ -158,7 +158,8 @@ Tickets de preparação, anteriores a este plano.
 <a id="mt-6"></a>
 ### MT-6 — Definir os tipos do documento e da questão
 - **Objetivo:** tipos Rust do modelo da spec 03 (documento, seção, questão nos 6 tipos,
-  conteúdo rico, `embaralhavel`, estado do gabarito, skills que produziram — S-08) com
+  conteúdo rico, `embaralhavel`, estado do gabarito, skills que produziram — S-08, cabeçalho
+  com a cópia dos campos do modelo escolhido — P-17) com
   `schema_version`, serialização JSON de ida e volta e JSON Schema gerado a partir dos tipos.
 - **Arquivos no escopo:** `core/Cargo.toml`, `core/src/lib.rs`, `core/src/document/mod.rs`,
   `core/src/document/question.rs`, `core/src/document/rich.rs`, `core/tests/fixtures/documents/`
@@ -638,7 +639,7 @@ Toda tela segue o `docs/DESIGN.md` (**PRE-9**) e chama os ajudantes das MT-45 e 
   abaixo do limite de página escaneada.
 - **Arquivos no escopo:** conforme ADR-0007; `web/src/lib/materials/pdf.ts`, fixtures
 - **Critério de aceite:** testes com PDF de texto e PDF misto.
-- **Fora de escopo:** OCR (MT-55).
+- **Fora de escopo:** OCR (MT-55), imagens embutidas (MT-81).
 - **Depende de:** MT-2, MT-51
 
 <a id="mt-54"></a>
@@ -646,7 +647,7 @@ Toda tela segue o `docs/DESIGN.md` (**PRE-9**) e chama os ajudantes das MT-45 e 
 - **Objetivo:** texto, listas, tabelas e fórmulas (OMML → LaTeX) no navegador.
 - **Arquivos no escopo:** conforme ADR-0007; fixture DOCX com equação
 - **Critério de aceite:** teste com a fixture.
-- **Fora de escopo:** imagens embutidas (conforme MT-5).
+- **Fora de escopo:** imagens embutidas (MT-81).
 - **Depende de:** MT-2, MT-51
 
 <a id="mt-55"></a>
@@ -774,12 +775,12 @@ Toda tela segue o `docs/DESIGN.md` (**PRE-9**) e chama os ajudantes das MT-45 e 
 
 <a id="mt-68"></a>
 ### MT-68 — Diagramar a prova no PDF (E-02, E-07, E-08)
-- **Objetivo:** template Typst com cabeçalho (conforme MT-5), numeração, páginas, papel,
+- **Objetivo:** template Typst com o cabeçalho do documento (P-17), numeração, páginas, papel,
   margens, fonte, linhas de resposta, sem quebrar múltipla escolha.
 - **Arquivos no escopo:** `app/export/templates/`, `app/export/src/pdf.rs`, fixtures
 - **Critério de aceite:** testes de layout com fixtures.
 - **Fora de escopo:** diagramas e imagens (MT-71).
-- **Depende de:** MT-5, MT-67
+- **Depende de:** MT-67, MT-80
 
 <a id="mt-69"></a>
 ### MT-69 — Separar arquivos e apontar a questão com erro (E-06, E-10)
@@ -887,3 +888,29 @@ Toda tela segue o `docs/DESIGN.md` (**PRE-9**) e chama os ajudantes das MT-45 e 
   registrado.
 - **Fora de escopo:** automação.
 - **Depende de:** MT-76
+
+---
+
+## Acréscimos do MT-5
+
+<a id="mt-80"></a>
+### MT-80 — Gerenciar modelos de cabeçalho (P-17)
+- **Objetivo:** criar, editar, duplicar e excluir modelos de cabeçalho (campos, ordem, valores
+  fixos, logotipo); escolher um por documento e um padrão; alterar o modelo não muda
+  documentos existentes sem pedido do professor.
+- **Arquivos no escopo:** `core/src/document/header.rs`, `core/tests/header.rs`,
+  `web/src/lib/components/header-templates/`, `web/e2e/cabecalho.e2e.ts`
+- **Critério de aceite:** `cargo test -p teacher-helper-core header` + e2e de criar, aplicar e
+  alterar.
+- **Fora de escopo:** diagramação no PDF (MT-68).
+- **Depende de:** MT-6, MT-41, MT-48
+
+<a id="mt-81"></a>
+### MT-81 — Escolher o uso das imagens dos materiais (M-14)
+- **Objetivo:** listar as imagens de PDF e DOCX de entrada e deixar o professor marcar cada
+  uma como "usar no documento" (com texto alternativo obrigatório) ou "só referência" (padrão).
+- **Arquivos no escopo:** conforme ADR-0007; `web/src/lib/materials/images.ts`,
+  `web/src/lib/components/materials/ImageChoice.svelte`, `web/e2e/imagens-material.e2e.ts`
+- **Critério de aceite:** teste com PDF e DOCX de fixture contendo imagens + e2e da escolha.
+- **Fora de escopo:** edição de imagem.
+- **Depende de:** MT-53, MT-54
