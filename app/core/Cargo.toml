@@ -1,0 +1,16 @@
+# Caminho relativo: app/core/Cargo.toml
+
+[package]
+name = "teacher-helper-core"
+version = "0.0.0"
+description = "Núcleo do teacher-helper: modelo de documento, skills, validação e exportação."
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+# Regra do ADR-0003/0004: sem dependências de navegador (web-sys, js-sys, wasm-bindgen).
+[dependencies]
+
+[lints]
+workspace = true

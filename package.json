@@ -1,0 +1,17 @@
+{
+	"name": "teacher-helper",
+	"private": true,
+	"license": "MIT",
+	"packageManager": "pnpm@11.12.0",
+	"engines": {
+		"node": ">=24"
+	},
+	"scripts": {
+		"wasm": "wasm-pack build app/wasm --target web --release",
+		"check": "pnpm -C app/web check",
+		"lint": "pnpm -C app/web lint",
+		"test": "pnpm -C app/web test",
+		"test:e2e": "pnpm -C app/web test:e2e",
+		"build": "pnpm run wasm && pnpm -C app/web build"
+	}
+}

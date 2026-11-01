@@ -1,0 +1,3 @@
+# Caminho relativo: pnpm-workspace.yaml
+packages:
+  - app/web
