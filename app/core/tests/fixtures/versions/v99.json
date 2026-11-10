@@ -1,0 +1,425 @@
+{
+  "schema_version": 99,
+  "kind": "exam",
+  "title": "Documento de versão 99 (futura)",
+  "header": {
+    "template_id": "tpl-padrao",
+    "fields": [
+      {
+        "kind": "school",
+        "label": "Escola",
+        "value": "E. E. Exemplo"
+      },
+      {
+        "kind": "student",
+        "label": "Aluno(a)"
+      },
+      {
+        "kind": "points",
+        "label": "Valor",
+        "value": "10,0"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Parte A — objetivas",
+      "instructions": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Marque uma alternativa."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Quanto vale "
+                },
+                {
+                  "type": "math",
+                  "latex": "\\sqrt{16}"
+                },
+                {
+                  "type": "text",
+                  "text": "?"
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "multiple_choice",
+            "alternatives": [
+              {
+                "id": "a",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "math",
+                        "latex": "2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "b",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "math",
+                        "latex": "4"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "c",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "math",
+                        "latex": "8"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "answer": "b"
+          },
+          "points": 1.5,
+          "topic": "Radiciação",
+          "level": {
+            "stage": "elementary_late",
+            "period": "9º ano"
+          },
+          "difficulty": 1,
+          "shuffleable": true,
+          "answer_status": "checked"
+        },
+        {
+          "id": "q2",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Julgue os itens."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "true_false",
+            "items": [
+              {
+                "id": "i1",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Todo quadrado é retângulo."
+                      }
+                    ]
+                  }
+                ],
+                "answer": true
+              },
+              {
+                "id": "i2",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Todo retângulo é quadrado."
+                      }
+                    ]
+                  }
+                ],
+                "answer": false
+              }
+            ]
+          },
+          "points": 1,
+          "topic": "Quadriláteros",
+          "level": {
+            "stage": "elementary_late"
+          },
+          "difficulty": 2,
+          "shuffleable": true,
+          "answer_status": "unchecked"
+        },
+        {
+          "id": "q3",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Associe cada figura ao número de lados."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "matching",
+            "left": [
+              {
+                "id": "l1",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Triângulo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "l2",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Hexágono"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "right": [
+              {
+                "id": "r1",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "6"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "r2",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "3"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "answer": [
+              {
+                "left": "l1",
+                "right": "r2"
+              },
+              {
+                "left": "l2",
+                "right": "r1"
+              }
+            ]
+          },
+          "points": 1,
+          "topic": "Polígonos",
+          "level": {
+            "stage": "elementary_late",
+            "period": "9º ano"
+          },
+          "difficulty": 1,
+          "shuffleable": true,
+          "answer_status": "unchecked"
+        },
+        {
+          "id": "q4",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "A soma dos ângulos internos de um triângulo é "
+                },
+                {
+                  "type": "blank",
+                  "id": "b1"
+                },
+                {
+                  "type": "text",
+                  "text": " graus."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "fill_in_blanks",
+            "answer": [
+              {
+                "blank_id": "b1",
+                "accepted": [
+                  "180",
+                  "cento e oitenta"
+                ]
+              }
+            ]
+          },
+          "points": 0.5,
+          "topic": "Triângulos",
+          "level": {
+            "stage": "elementary_late"
+          },
+          "difficulty": 1,
+          "shuffleable": false,
+          "answer_status": "unchecked"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Parte B — discursivas",
+      "questions": [
+        {
+          "id": "q5",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Defina número primo."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "short_answer",
+            "lines": 3,
+            "criteria": [
+              {
+                "type": "paragraph",
+                "inlines": [
+                  {
+                    "type": "text",
+                    "text": "Cita exatamente dois divisores positivos."
+                  }
+                ]
+              }
+            ]
+          },
+          "points": 2,
+          "topic": "Números primos",
+          "level": {
+            "stage": "elementary_late"
+          },
+          "difficulty": 2,
+          "shuffleable": false,
+          "answer_status": "unchecked"
+        },
+        {
+          "id": "q6",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Explique o que a função faz."
+                }
+              ]
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "source": "def f(n):\n    return n % 2 == 0\n"
+            }
+          ],
+          "body": {
+            "type": "long_answer",
+            "lines": 10,
+            "criteria": [
+              {
+                "type": "paragraph",
+                "inlines": [
+                  {
+                    "type": "text",
+                    "text": "Diz que testa se n é par e explica o operador resto."
+                  }
+                ]
+              }
+            ],
+            "expected_answer": [
+              {
+                "type": "paragraph",
+                "inlines": [
+                  {
+                    "type": "text",
+                    "text": "Devolve verdadeiro quando n é par."
+                  }
+                ]
+              }
+            ]
+          },
+          "points": 4,
+          "topic": "Paridade",
+          "level": {
+            "stage": "technical",
+            "period": "1º semestre"
+          },
+          "difficulty": 3,
+          "shuffleable": false,
+          "answer_status": "unchecked"
+        }
+      ]
+    }
+  ],
+  "target_total_points": 10,
+  "produced_by": [
+    {
+      "id": "gerar-prova",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-que-nao-existe-mais",
+      "version": "0.3.0"
+    }
+  ]
+}
