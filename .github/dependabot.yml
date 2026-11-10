@@ -21,6 +21,9 @@ updates:
     commit-message:
       prefix: "chore(deps)"
     groups:
+      # Vitest e seus pacotes só funcionam na mesma versão: sobem juntos, inclusive major.
+      vitest:
+        patterns: ["vitest", "@vitest/*", "vitest-browser-*"]
       js:
         update-types: [minor, patch]
     ignore:
