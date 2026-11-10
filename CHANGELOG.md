@@ -48,6 +48,8 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Núcleo: verificações de gabarito por código (CK-01, CK-03 a CK-07 e CK-09), com achado
   por campo e alerta de pista no tamanho da alternativa; "duas corretas" (CK-02) é recusada
   pelo próprio esquema (MT-9).
+- Núcleo: verificação de LaTeX (CK-08) com o `math-core`, achado no campo da fórmula com
+  a posição do erro (MT-10).
 - Spec 00: correção de provas respondidas registrada como planejada fora do MVP, com o
   professor decidindo toda nota e IA só como sugestão nas discursivas.
 

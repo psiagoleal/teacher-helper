@@ -6,11 +6,12 @@
 //! achado só marca a questão. Os achados saem como código + parâmetros (ADR-0006, item 5).
 //!
 //! CK-02 ("exatamente uma correta") é garantida pelo esquema: o gabarito da múltipla escolha
-//! é um único `id`, e duas corretas são recusadas na validação (MT-7). CK-08 (LaTeX e
-//! Mermaid) fica no MT-10 e no MT-62.
+//! é um único `id`, e duas corretas são recusadas na validação (MT-7). CK-08 cobre por ora
+//! só o LaTeX (MT-10); o Mermaid vem no MT-62.
 
 mod alternatives;
 mod answers;
+mod latex;
 mod points;
 mod required;
 mod text;
@@ -21,6 +22,8 @@ use serde_json::{Map, Value};
 
 use crate::document::Document;
 use crate::document::question::Question;
+
+pub use latex::{LatexChecker, LatexIssue};
 
 /// Verificações do catálogo implementadas no núcleo.
 #[derive(
@@ -39,18 +42,21 @@ pub enum CheckId {
     Ck06,
     #[serde(rename = "CK-07")]
     Ck07,
+    #[serde(rename = "CK-08")]
+    Ck08,
     #[serde(rename = "CK-09")]
     Ck09,
 }
 
 impl CheckId {
-    pub const ALL: [CheckId; 7] = [
+    pub const ALL: [CheckId; 8] = [
         CheckId::Ck01,
         CheckId::Ck03,
         CheckId::Ck04,
         CheckId::Ck05,
         CheckId::Ck06,
         CheckId::Ck07,
+        CheckId::Ck08,
         CheckId::Ck09,
     ];
 }
@@ -95,6 +101,7 @@ pub fn run_selected(document: &Document, checks: &[CheckId]) -> Vec<Finding> {
             CheckId::Ck05 => alternatives::ck05(document),
             CheckId::Ck06 => points::ck06(document),
             CheckId::Ck07 => required::ck07(document),
+            CheckId::Ck08 => latex::ck08(document),
             CheckId::Ck09 => answers::ck09(document),
         };
         findings.append(&mut found);
