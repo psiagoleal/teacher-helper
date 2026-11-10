@@ -5,6 +5,7 @@
 //! Rust puro, sem acesso a APIs de navegador (ADR-0003): o mesmo código serve à web
 //! (via `app/wasm`) e ao futuro app desktop.
 
+pub mod checks;
 pub mod document;
 
 /// Versão atual do esquema de documento (spec 00, T-12).

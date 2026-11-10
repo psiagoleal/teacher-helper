@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "kind": "exam",
+  "title": "Fixture de verificação",
+  "header": {
+    "fields": []
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "questions": [
+        {
+          "id": "q1",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "   "
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "multiple_choice",
+            "alternatives": [
+              {
+                "id": "a",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Paris"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "answer": "a"
+          },
+          "points": 1,
+          "topic": "Tema",
+          "level": {
+            "stage": "high_school"
+          },
+          "difficulty": 2,
+          "shuffleable": true,
+          "answer_status": "unchecked"
+        },
+        {
+          "id": "q2",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Enunciado da questão."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "short_answer",
+            "lines": 3,
+            "criteria": []
+          },
+          "points": 1,
+          "topic": "Tema",
+          "level": {
+            "stage": "high_school"
+          },
+          "difficulty": 2,
+          "shuffleable": false,
+          "answer_status": "unchecked"
+        },
+        {
+          "id": "q3",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Sem lacuna nenhuma."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "fill_in_blanks",
+            "answer": []
+          },
+          "points": 1,
+          "topic": "Tema",
+          "level": {
+            "stage": "high_school"
+          },
+          "difficulty": 2,
+          "shuffleable": false,
+          "answer_status": "unchecked"
+        }
+      ]
+    }
+  ]
+}

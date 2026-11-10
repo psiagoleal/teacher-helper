@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "kind": "exam",
+  "title": "Fixture de verificação",
+  "header": {
+    "fields": []
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "questions": [
+        {
+          "id": "q1",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Enunciado da questão."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "multiple_choice",
+            "alternatives": [
+              {
+                "id": "a",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Paris"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "b",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Roma"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "c",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Lima"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "answer": "z"
+          },
+          "points": 1,
+          "topic": "Tema",
+          "level": {
+            "stage": "high_school"
+          },
+          "difficulty": 2,
+          "shuffleable": true,
+          "answer_status": "unchecked"
+        },
+        {
+          "id": "q2",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Enunciado da questão."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "true_false",
+            "items": [
+              {
+                "id": "i1",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "A Terra gira."
+                      }
+                    ]
+                  }
+                ],
+                "answer": true
+              },
+              {
+                "id": "i2",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "A Lua é uma estrela."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "points": 1,
+          "topic": "Tema",
+          "level": {
+            "stage": "high_school"
+          },
+          "difficulty": 2,
+          "shuffleable": true,
+          "answer_status": "unchecked"
+        },
+        {
+          "id": "q3",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Capital do Brasil: "
+                },
+                {
+                  "type": "blank",
+                  "id": "b1"
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "fill_in_blanks",
+            "answer": [
+              {
+                "blank_id": "b9",
+                "accepted": [
+                  "x"
+                ]
+              }
+            ]
+          },
+          "points": 1,
+          "topic": "Tema",
+          "level": {
+            "stage": "high_school"
+          },
+          "difficulty": 2,
+          "shuffleable": false,
+          "answer_status": "unchecked"
+        },
+        {
+          "id": "q4",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Enunciado da questão."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "multiple_choice",
+            "alternatives": [
+              {
+                "id": "a",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Paris"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "b",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Roma"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "c",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Lima"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "points": 1,
+          "topic": "Tema",
+          "level": {
+            "stage": "high_school"
+          },
+          "difficulty": 2,
+          "shuffleable": true,
+          "answer_status": "unchecked"
+        }
+      ]
+    }
+  ]
+}
