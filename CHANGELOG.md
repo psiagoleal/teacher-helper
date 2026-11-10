@@ -52,6 +52,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
   professor decidindo toda nota e IA só como sugestão nas discursivas.
 
 ### Corrigido
+- CI: `wasm-pack` fixado em 0.15.0; a instalação da "mais recente" passou a trazer a 0.15.1,
+  com a qual a página não carregava o núcleo.
+- Vitest 5 (com `@vitest/browser-playwright` 5 e `vitest-browser-svelte` 3), atualizados
+  juntos; o Dependabot agora agrupa esses pacotes num PR só.
 - CI: pnpm fixado em 11.28.10 (a 11.12.0 foi retirada por defeito e quebrava a instalação).
 - Dependabot agrupa só atualizações *minor* e *patch*; *major* chega em PR própria, e
   TypeScript e `@types/node` não sobem de *major* sozinhos.
