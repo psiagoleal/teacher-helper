@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "kind": "exam",
+  "title": "Fixture de verificação",
+  "header": {
+    "fields": []
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "questions": [
+        {
+          "id": "q1",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Enunciado da questão."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "multiple_choice",
+            "alternatives": [
+              {
+                "id": "a",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Paris"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "b",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Roma"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "c",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Lima"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "answer": "a"
+          },
+          "points": 4.5,
+          "topic": "Tema",
+          "level": {
+            "stage": "high_school"
+          },
+          "difficulty": 2,
+          "shuffleable": true,
+          "answer_status": "unchecked"
+        },
+        {
+          "id": "q2",
+          "statement": [
+            {
+              "type": "paragraph",
+              "inlines": [
+                {
+                  "type": "text",
+                  "text": "Enunciado da questão."
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "multiple_choice",
+            "alternatives": [
+              {
+                "id": "a",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Paris"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "b",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Roma"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "c",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "Lima"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "answer": "b"
+          },
+          "points": 5,
+          "topic": "Tema",
+          "level": {
+            "stage": "high_school"
+          },
+          "difficulty": 2,
+          "shuffleable": true,
+          "answer_status": "unchecked"
+        }
+      ]
+    }
+  ],
+  "target_total_points": 10
+}

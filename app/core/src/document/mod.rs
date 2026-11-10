@@ -2,7 +2,7 @@
 
 //! Modelo do documento (spec 03): documento, seções, questões, cabeçalho e conteúdo rico.
 //!
-//! Só a forma e a serialização. Validação (MT-7) e migração (MT-8) vêm depois.
+//! Forma e serialização; validação em `validate` (MT-7) e migração em `migrate` (MT-8).
 
 pub mod migrate;
 pub mod question;
