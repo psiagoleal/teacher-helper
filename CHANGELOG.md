@@ -43,6 +43,8 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
   estável e registro das skills que produziram o documento (MT-6).
 - Núcleo: validação do documento (P-01) com o caminho exato do campo errado e erro como
   código + parâmetros, pronto para voltar à IA (MT-7).
+- Núcleo: migração do documento entre versões do esquema (T-12); versão mais nova é
+  recusada com motivo e a entrada nunca é alterada (MT-8).
 - Spec 00: correção de provas respondidas registrada como planejada fora do MVP, com o
   professor decidindo toda nota e IA só como sugestão nas discursivas.
 

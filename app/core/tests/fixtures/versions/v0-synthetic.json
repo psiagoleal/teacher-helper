@@ -1,0 +1,26 @@
+{
+  "schema_version": 0,
+  "kind": "exercise_list",
+  "title": "Lista de versão 0 (sintética)",
+  "header": { "fields": [] },
+  "questions": [
+    {
+      "id": "q1",
+      "statement": [{ "type": "paragraph", "inlines": [{ "type": "text", "text": "Quanto é 2 + 2?" }] }],
+      "body": {
+        "type": "multiple_choice",
+        "alternatives": [
+          { "id": "a", "content": [{ "type": "paragraph", "inlines": [{ "type": "text", "text": "3" }] }] },
+          { "id": "b", "content": [{ "type": "paragraph", "inlines": [{ "type": "text", "text": "4" }] }] }
+        ],
+        "answer": "b"
+      },
+      "points": 1,
+      "topic": "Adição",
+      "level": { "stage": "elementary_early", "period": "1º ano" },
+      "difficulty": 1,
+      "shuffleable": true,
+      "answer_status": "checked"
+    }
+  ]
+}

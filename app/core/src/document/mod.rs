@@ -4,6 +4,7 @@
 //!
 //! Só a forma e a serialização. Validação (MT-7) e migração (MT-8) vêm depois.
 
+pub mod migrate;
 pub mod question;
 pub mod rich;
 pub mod validate;
