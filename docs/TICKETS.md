@@ -20,7 +20,6 @@
 - [ ] [MT-2](plano-mvp.md#mt-2) — Escolher extração de PDF, DOCX e OCR.
 - [ ] [MT-3](plano-mvp.md#mt-3) — Escolher a renderização da pré-visualização.
 - [ ] [MT-4](plano-mvp.md#mt-4) — Escolher o motor de modelo local.
-- [ ] [MT-10](plano-mvp.md#mt-10) — Verificar LaTeX no núcleo.
 - [ ] [MT-11](plano-mvp.md#mt-11) — Calcular numeração e pontuação.
 - [ ] [MT-12](plano-mvp.md#mt-12) — Gerar o gabarito separado e controlar a conferência.
 - [ ] [MT-13](plano-mvp.md#mt-13) — Embaralhar versões A, B, … com semente.
@@ -110,6 +109,7 @@
 - [x] [MT-7](plano-mvp.md#mt-7) — Validação do documento com erro por caminho (JSON Pointer) e código + parâmetros, inclusive dentro do corpo da questão.
 - [x] [MT-8](plano-mvp.md#mt-8) — Migração por passos de versão; versão mais nova recusada com motivo, sem alterar a entrada.
 - [x] [MT-9](plano-mvp.md#mt-9) — Verificações de gabarito CK-01, CK-03 a CK-07 e CK-09 como funções puras; CK-02 garantida pelo esquema.
+- [x] [MT-10](plano-mvp.md#mt-10) — CK-08 (LaTeX): cada fórmula passa pelo `math-core`; o achado traz posição e detalhe para a IA corrigir.
 
 ## Abandonados
 
